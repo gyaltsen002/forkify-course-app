@@ -157,6 +157,7 @@ const init = function () {
   paginationView.addClickHandler(paginationBtnHandler);
   addRecipeView.uploadRecipe(handleUpload);
   homeView.clearHome();
+  console.log("Hey, how you doing, I'm you but in the future.");
 };
 
 init();
